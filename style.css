@@ -37,6 +37,20 @@ body {
   }
 }
 
+h3:hover {
+  color: var(--soft-red);
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: var(--soft-orange);
+}
+
+.btn-read-more:hover {
+  color: var(--off-white);
+  background-color: var(--vry-drk-blue);
+}
+
 .heading-content {
   position: relative;
 }
@@ -213,6 +227,7 @@ hr {
     max-width: 100vw;
   }
 
+  /* Styling for Nav Panel - Mobile */
   .nav-panel {
     z-index: 2;
     position: fixed;
@@ -226,7 +241,6 @@ hr {
     background-color: var(--off-white);
     right: -100%;
     height: 100vh;
-    /* Styling for Nav Panel - Mobile */
     padding: 2rem;
     font-size: 1.44em;
   }
