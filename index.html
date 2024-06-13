@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Home Page</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="back-container"></div>
+    <!-- Navigation Section -->
+    <nav>
+      <img src="./assets/images/logo.svg" alt="image-logo" class="logo-image" />
+      <ul class="nav-panel">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">New</li>
+        <li class="nav-item">Popular</li>
+        <li class="nav-item">Trending</li>
+        <li class="nav-item">Categories</li>
+      </ul>
+      <div class="controls">
+        <img
+          src="./assets/images/icon-menu.svg"
+          alt="icon-menu"
+          class="ico ico-menu active"
+        />
+        <img
+          src="./assets/images/icon-menu-close.svg"
+          alt="ico-close"
+          class="ico ico-close"
+        />
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+      <div class="row-1">
+        <picture>
+          <source
+            media="(max-width: 480px)"
+            srcset="./assets/images/image-web-3-mobile.jpg"
+          />
+          <img
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt="image-alt-main"
+            class="main-image"
+          />
+        </picture>
+        <!-- Main Heading Content -->
+        <h1 class="heading">The Bright Future of Web 3.0?</h1>
+        <div class="heading-content">
+          <p class="content">
+            We dive into the next evolution of the Web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fullfilling its promise?
+          </p>
+          <button class="btn-read-more">READ MORE</button>
+        </div>
+        <!-- NEW ARRIVAL CARDS -->
+        <div class="new-arrival">
+          <h2 class="new-heading-text">New</h2>
+          <!-- Cards -->
+          <div class="card">
+            <h3 class="card-heading">Hydrogen VS Electric Cars</h3>
+            <p class="card-content">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <hr />
+          <!-- Cards -->
+          <div class="card">
+            <h3 class="card-heading">The Downstairs of AI Artistry</h3>
+            <p class="card-content">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <hr />
+          <!-- Cards -->
+          <div class="card">
+            <h3 class="card-heading">Is VC Funding Drying Up?</h3>
+            <p class="card-content">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row-2">
+        <!-- TOPICS - CARD -->
+        <div class="topic">
+          <img
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="retro-image"
+            class="topic-image"
+          />
+          <!-- Topic Content -->
+          <topic-content>
+            <p class="num">01</p>
+            <h3>Reviving Retro PCs</h3>
+            <p class="content">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </topic-content>
+        </div>
+        <!-- TOPICS - CARD -->
+        <div class="topic">
+          <img
+            src="./assets/images/image-top-laptops.jpg"
+            alt="top-laptops-image"
+            class="topic-image"
+          />
+          <!-- Topic Content -->
+          <topic-content>
+            <p class="num">02</p>
+            <h3>Top 10 Laptops of 2022</h3>
+            <p class="content">Our best picks for various needs and budgets.</p>
+          </topic-content>
+        </div>
+        <!-- TOPICS - CARD -->
+        <div class="topic">
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="gaming-growth"
+            class="topic-image"
+          />
+          <!-- Topic Content -->
+          <topic-content>
+            <p class="num">03</p>
+            <h3>The Growth of Gaming</h3>
+            <p class="content">
+              How pandemic has sparkled fresh opportunities.
+            </p>
+          </topic-content>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
